@@ -68,5 +68,22 @@
     "tailwindcss": "^4.2.0",
     "tw-animate-css": "1.3.3",
     "typescript": "5.7.3"
-  }
+  },
+  "description": "A modern, full-featured grocery store product management and inventory tracking system built for college DBMS mini projects.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrahc-29/Grocery_Store_management_DBMS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/shrahc-29/Grocery_Store_management_DBMS/issues"
+  },
+  "homepage": "https://github.com/shrahc-29/Grocery_Store_management_DBMS#readme"
 }

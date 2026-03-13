@@ -16,10 +16,10 @@ export function Sidebar() {
   ];
 
   return (
-    <aside className="w-64 bg-sidebar text-sidebar-foreground border-r border-sidebar-border min-h-screen flex flex-col p-6">
+    <aside className="w-64 bg-[#13344F] text-sidebar-foreground border-r border-sidebar-border min-h-screen flex flex-col p-6">
       <div className="mb-8 flex items-center gap-2">
         <BarChart3 className="w-8 h-8 text-sidebar-primary" />
-        <h1 className="text-2xl font-bold text-sidebar-foreground">GroceryStore</h1>
+        <h1 className="text-2xl font-bold text-sidebar-foreground">Stock Basket</h1>
       </div>
 
       <nav className="flex-1 space-y-2">
@@ -45,10 +45,6 @@ export function Sidebar() {
         })}
       </nav>
 
-      <div className="text-xs text-sidebar-foreground opacity-60 pt-4 border-t border-sidebar-border">
-        <p>© 2024 GroceryStore</p>
-        <p>DBMS Project</p>
-      </div>
     </aside>
   );
 }
