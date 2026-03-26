@@ -48,7 +48,7 @@ A full-stack grocery store management app built with **Next.js 16** (frontend) a
 mysql -u root -p < backend/schema.sql
 ```
 
-This creates the `grocery_store` database, all tables, and seeds sample data.
+This creates the `grocery_store_dbms` database, all tables, and seeds sample data.
 
 ### 2. Backend
 
@@ -108,7 +108,7 @@ Create `backend/.env`:
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_password
-DB_NAME=grocery_store
+DB_NAME=grocery_store_dbms
 PORT=5000
 ```
 

@@ -21,7 +21,7 @@ export function Sidebar() {
     <aside className="w-64 bg-[#13344F] text-sidebar-foreground border-r border-sidebar-border min-h-screen flex flex-col p-6">
       <div className="mb-8 flex items-center gap-2">
         <BarChart3 className="w-8 h-8 text-sidebar-primary" />
-        <h1 className="text-2xl font-bold text-sidebar-foreground">Stock Basket</h1>
+        <h1 className="text-2xl font-bold text-sidebar-foreground">Mohan Super Market</h1>
       </div>
 
       <nav className="flex-1 space-y-2">

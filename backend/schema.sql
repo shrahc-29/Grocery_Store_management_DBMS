@@ -1,8 +1,8 @@
 -- Grocery Store Management System — Database Schema
 -- Run this file in MySQL: source schema.sql
 
-CREATE DATABASE IF NOT EXISTS grocery_store;
-USE grocery_store;
+CREATE DATABASE IF NOT EXISTS grocery_store_dbms;
+USE grocery_store_dbms;
 
 -- Categories
 CREATE TABLE IF NOT EXISTS categories (
